@@ -13,12 +13,12 @@ on:
   repository_dispatch:
   workflow_dispatch:
   
-#  push:
-#    branches: 
-#      - master
+  push:
+    branches: 
+      - master
 
-#  schedule:
-#    - cron: 0 19 * * *
+  schedule:
+    - cron: 0 19 * * *
 
 jobs:
 
